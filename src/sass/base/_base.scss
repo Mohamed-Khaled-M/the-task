@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Great+Vibes&family=Roboto:wght@100&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media (max-width: 992px) {
+    font-size: 56%;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 50%;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 48%;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-size: $def-font-size;
+  font-family: 'Cairo', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}

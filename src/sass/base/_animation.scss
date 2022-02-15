@@ -1,0 +1,11 @@
+ @keyframes btnIcon {
+   from {
+     color: $secondary-color;
+     transform: scale(1);
+   }
+
+   to {
+     color: #ffe44a;
+     transform: scale(1.05);
+   }
+ }

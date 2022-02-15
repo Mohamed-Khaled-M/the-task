@@ -1,0 +1,52 @@
+.heading {
+  &--primary {
+    color: $main-color;
+    font-size: 3.6rem;
+    font-weight: $font-bolder;
+
+    @media (max-width: 450px) {
+      font-size: 3rem;
+    }
+  }
+
+  &--secondary {
+    color: $main-color;
+    font-size: 2.4rem;
+    font-weight: $font-bolder;
+    letter-spacing: -1px;
+  }
+
+  &--tertiary {
+    color: $main-color;
+    font-size: 1.6rem;
+  }
+
+  &--black {
+    color: $black;
+  }
+}
+
+.paragraph {
+  color: $black;
+
+  &--large {
+    font-size: 1.8rem;
+
+    @media (max-width: 450px) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &--medium {
+    font-size: 1.6rem;
+    padding: 2rem 0;
+
+    @media (max-width: 450px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &--small {
+    font-size: 1.4rem;
+  }
+}
